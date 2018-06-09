@@ -316,6 +316,13 @@ const Test = reduxForm<TestFormData>({
                                 component={ MyCustomArrayField }
                                 foo="bar"
                             />
+
+                            <FieldArray
+                                name="field11"
+                                component={ MyCustomArrayField }
+                                foo="bar"
+                            />
+
                         </FormSection>
                     </FormCustom>
                 </div>
